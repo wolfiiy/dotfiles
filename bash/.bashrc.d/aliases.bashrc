@@ -25,8 +25,9 @@ alias addtag='git tag -a'
 alias pushtag='git push origin tag'
 
 # List files
-alias ls='exa -al --color=always --group-directories-first'
-alias la='exa -a --color=always --group-directories-first'
+alias ls='exa --color=always --group-directories-first'
+alias la='exa -la --color=always --group-directories-first'
+alias lsa='exa -a --color=always --group-directories-first'
 alias ll='exa -l --color=always --group-directories-first'
 alias lt='exa -aT --color=always --group-directories-first'
 alias l.='exa -a --color=always --group-directories-first | egrep "^\."'
