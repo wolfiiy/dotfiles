@@ -9,12 +9,9 @@
 if [ -d ~/.bashrc.d ] ; then
   for file in ~/.bashrc.d/*.bashrc; do
     source "$file"
-  done
+ done
 fi
 
 unset $file
 
-# alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias v='nvim'
 PS1='[\u@\h \W]\$ '
