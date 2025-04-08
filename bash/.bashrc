@@ -18,4 +18,4 @@ unset $file
 PS1='[\[\e[1m\]\u@\h\[\e[0m\] \[\e[3m\]\W\[\e[0m\]]\$ '
 
 # Restore colors
-cat ~/.cache/wallust/sequences 
+[ -f ~/.cache/wallust/sequences ] && cat ~/.cache/wallust/sequences
