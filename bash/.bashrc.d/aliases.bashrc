@@ -5,6 +5,11 @@
 # Colorize
 alias grep='grep --color=auto'
 
+# Confirmations in case of overwrites
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
 # Git
 alias addall='git add .'
 alias branch='git branch'
